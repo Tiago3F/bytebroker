@@ -1,0 +1,16 @@
+{
+  "name": "@brisanet/prettier-config",
+  "version": "0.1.0",
+  "description": "Brisanet shared prettier config",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "version": "chan release $npm_package_version && git add CHANGELOG.md"
+  },
+  "peerDependencies": {
+    "prettier": "^1.18.2 || ^2.0.4"
+  }
+}

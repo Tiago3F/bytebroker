@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-brisanet",
+  "version": "14.1.1",
+  "description": "Brisanet ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "eslint-check": "eslint-config-prettier index.js",
+    "dump-config": "eslint-config-prettier index.js > config-dump.json",
+    "version": "chan release $npm_package_version && git add CHANGELOG.md"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "brisanet"
+  ],
+  "contributors": [
+    "Iury Nogueira <iury.nogueira@grupobrisanet.com.br>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brisanet/typescript/issues"
+  },
+  "homepage": "https://github.com/brisanet/typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brisanet/typescript.git",
+    "directory": "packages/eslint-config-brisanet"
+  },
+  "files": [
+    "index.js",
+    "rules/",
+    "lib/"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-modules-newline": "^0.0.6",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7",
+    "prettier": "^1 || ^2",
+    "typescript": "^3 || ^4"
+  }
+}

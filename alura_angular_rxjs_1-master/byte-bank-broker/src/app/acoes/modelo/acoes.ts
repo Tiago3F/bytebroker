@@ -1,6 +1,4 @@
-export interface Acoes extends Array<Acao>{
-
-}
+export type Acoes = Array<Acao>
 
 export interface Acao {
   id: number
